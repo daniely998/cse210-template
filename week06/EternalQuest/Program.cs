@@ -1,9 +1,11 @@
+// creativity: added an option to allow user to remove a goal
 using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager program = new();
+        program.Start();
     }
 }
